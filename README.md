@@ -132,7 +132,7 @@ Both training and test images participate in camera estimation and initial pose 
 
 ## Dataset
 
-**HDR-Pretrain** is our synthetic dataset for pretraining feed-forward HDR reconstruction models. It contains **168 indoor scenes**, built from HSSD assets and rendered with Blender Cycles. Each scene provides:
+**HDR-Pretrain** is a synthetic **pretraining dataset for 3D HDR reconstruction**, designed to train feed-forward models that reconstruct HDR 3D scenes from multi-view, multi-exposure LDR images. It contains **168 indoor scenes**, built from HSSD assets and rendered with Blender Cycles. Each scene provides:
 
 - **35 viewpoints** sampled on a 5 × 7 grid, rendered at **448 × 448** resolution.
 - **Five exposure levels per view**, paired with **32-bit HDR ground truth**.
