@@ -4,13 +4,13 @@ Dingqiang Ye, Jiacong Xu, Jianglu Ping, Yuxiang Guo, Chao Fan, and Vishal M. Pat
 
 **ECCV 2026 · Official Implementation**
 
-[Paper](https://arxiv.org/abs/2603.11298) | [Dataset](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain)
+[Paper](https://arxiv.org/abs/2603.11298) | [Checkpoint](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain/resolve/main/checkpoints/InstantHDR.ckpt) | [Dataset](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain)
 
 ## Overview
 
 InstantHDR reconstructs an HDR Gaussian scene from multi-exposure LDR images in a single forward pass, enabling novel-view rendering at different exposures.
 
-<p align="center"><img src="assets/figure1.png" width="100%" alt="Figure 1: Reconstruction and exposure-controlled rendering comparisons of GaussianHDR, AnySplat, and InstantHDR"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Bugjudger/InstantHDR/main/assets/figure1.png" width="100%" alt="Figure 1: Reconstruction and exposure-controlled rendering comparisons of GaussianHDR, AnySplat, and InstantHDR"></p>
 
 ## Installation
 
@@ -28,9 +28,12 @@ pip install https://github.com/nerfstudio-project/gsplat/releases/download/v1.4.
 
 ## Checkpoint
 
-Save the released Final weights as `checkpoints/InstantHDR.ckpt` and set this variable in your shell before running:
+Download the [InstantHDR checkpoint](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain/resolve/main/checkpoints/InstantHDR.ckpt) from Hugging Face:
 
 ```bash
+mkdir -p checkpoints
+curl -L --fail https://huggingface.co/datasets/Bugjudger/HDR_Pretrain/resolve/main/checkpoints/InstantHDR.ckpt \
+  -o checkpoints/InstantHDR.ckpt
 export INSTANTHDR_CHECKPOINT="$PWD/checkpoints/InstantHDR.ckpt"
 ```
 
@@ -48,7 +51,7 @@ Open http://127.0.0.1:7860. Try **Bear**, **Chair**, or **Dog** with prefilled e
 <details open>
 <summary><strong>Preview the demo interface</strong></summary>
 
-<p align="center"><img src="assets/demo.png" width="800" alt="InstantHDR demo interface showing preset inputs, reconstruction results, and exposure rendering controls"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Bugjudger/InstantHDR/main/assets/demo.png" width="800" alt="InstantHDR demo interface showing preset inputs, reconstruction results, and exposure rendering controls"></p>
 
 </details>
 
@@ -135,7 +138,7 @@ Both training and test images participate in camera estimation and initial pose 
 - **Five exposure levels per view**, paired with **32-bit HDR ground truth**.
 - **Depth and normal maps**, with one of **AgX, Filmic, or Standard** tone-mapping operators selected per scene.
 
-<p align="center"><img src="assets/hdr_pretrain.png" width="100%" alt="HDR-Pretrain examples showing multi-view, multi-exposure LDR images, HDR ground truth, depth and normal maps, and different tone-mapping operators"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Bugjudger/InstantHDR/main/assets/hdr_pretrain.png" width="100%" alt="HDR-Pretrain examples showing multi-view, multi-exposure LDR images, HDR ground truth, depth and normal maps, and different tone-mapping operators"></p>
 
 Download the dataset from [Hugging Face](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain). See the [data preparation instructions](docs/data.md#training) for the directory layout, exposure metadata, and training/validation index format, then follow [Training](#training) to use it.
 
