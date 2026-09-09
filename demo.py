@@ -52,7 +52,7 @@ DEMO_CSS = """
 # Author order and affiliations: https://arxiv.org/html/2603.11298v1
 PROJECT_HEADER = """
 <header>
-  <h1>InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction</h1>
+  <h1>InstantHDR: Single-forward Gaussian Splatting Initialization for HDR 3D Reconstruction</h1>
   <div class="authors">
     <span>Dingqiang Ye<sup>1</sup></span>
     <span>Jiacong Xu<sup>1</sup></span>

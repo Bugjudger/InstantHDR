@@ -1,4 +1,4 @@
-# InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction
+# InstantHDR: Single-forward Gaussian Splatting Initialization for HDR 3D Reconstruction
 
 Dingqiang Ye, Jiacong Xu, Jianglu Ping, Yuxiang Guo, Chao Fan, and Vishal M. Patel
 
@@ -154,7 +154,7 @@ If you find our work useful, please consider citing:
 
 ```bibtex
 @inproceedings{ye2026instanthdr,
-  title={InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction},
+  title={InstantHDR: Single-forward Gaussian Splatting Initialization for HDR 3D Reconstruction},
   author={Ye, Dingqiang and Xu, Jiacong and Ping, Jianglu and Guo, Yuxiang and Fan, Chao and Patel, Vishal M.},
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2026}
