@@ -4,7 +4,7 @@ Dingqiang Ye, Jiacong Xu, Jianglu Ping, Yuxiang Guo, Chao Fan, and Vishal M. Pat
 
 **ECCV 2026 · Official Implementation**
 
-[Paper](https://arxiv.org/abs/2603.11298) | [Checkpoint](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain/resolve/main/checkpoints/InstantHDR.ckpt) | [Dataset](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain)
+[Project Page](https://bugjudger.github.io/InstantHDR/) | [Paper](https://arxiv.org/abs/2603.11298) | [Checkpoint](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain/resolve/main/checkpoints/InstantHDR.ckpt) | [Dataset](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain)
 
 ## Overview
 
