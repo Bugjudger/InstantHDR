@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+/.cache/
+/.gradio/
+/.venv/
+/checkpoints/
+/datasets/
+/outputs/
+/output/
+/results/
+/input_images_*/
+/wandb/
+*.ckpt
+*.safetensors
+/.release/
+*.log
