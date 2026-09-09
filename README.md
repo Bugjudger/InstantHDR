@@ -10,7 +10,7 @@ Dingqiang Ye, Jiacong Xu, Jianglu Ping, Yuxiang Guo, Chao Fan, and Vishal M. Pat
 
 InstantHDR reconstructs an HDR Gaussian scene from multi-exposure LDR images in a single forward pass, enabling novel-view rendering at different exposures.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Bugjudger/InstantHDR/main/assets/figure1.png" width="100%" alt="Figure 1: Reconstruction and exposure-controlled rendering comparisons of GaussianHDR, AnySplat, and InstantHDR"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Bugjudger/InstantHDR/main/assets/figure1.webp" width="100%" alt="Figure 1: Reconstruction and exposure-controlled rendering comparisons of GaussianHDR, AnySplat, and InstantHDR"></p>
 
 ## Installation
 
@@ -51,7 +51,7 @@ Open http://127.0.0.1:7860. Try **Bear**, **Chair**, or **Dog** with prefilled e
 <details open>
 <summary><strong>Preview the demo interface</strong></summary>
 
-<p align="center"><img src="https://raw.githubusercontent.com/Bugjudger/InstantHDR/main/assets/demo.png" width="800" alt="InstantHDR demo interface showing preset inputs, reconstruction results, and exposure rendering controls"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Bugjudger/InstantHDR/main/assets/demo.webp" width="800" alt="InstantHDR demo interface showing preset inputs, reconstruction results, and exposure rendering controls"></p>
 
 </details>
 
@@ -138,7 +138,7 @@ Both training and test images participate in camera estimation and initial pose 
 - **Five exposure levels per view**, paired with **32-bit HDR ground truth**.
 - **Depth and normal maps**, with one of **AgX, Filmic, or Standard** tone-mapping operators selected per scene.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Bugjudger/InstantHDR/main/assets/hdr_pretrain.png" width="100%" alt="HDR-Pretrain examples showing multi-view, multi-exposure LDR images, HDR ground truth, depth and normal maps, and different tone-mapping operators"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Bugjudger/InstantHDR/main/assets/hdr_pretrain.webp" width="100%" alt="HDR-Pretrain examples showing multi-view, multi-exposure LDR images, HDR ground truth, depth and normal maps, and different tone-mapping operators"></p>
 
 Download the dataset from [Hugging Face](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain). See the [data preparation instructions](docs/data.md#training) for the directory layout, exposure metadata, and training/validation index format, then follow [Training](#training) to use it.
 
