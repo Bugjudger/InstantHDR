@@ -28,7 +28,7 @@ pip install https://github.com/nerfstudio-project/gsplat/releases/download/v1.4.
 
 ## Checkpoint
 
-Download the [InstantHDR checkpoint](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain/resolve/main/checkpoints/InstantHDR.ckpt) from Hugging Face:
+The pretrained **InstantHDR checkpoint** is hosted in the Hugging Face dataset repository **`Bugjudger/HDR_Pretrain`**, at [`checkpoints/InstantHDR.ckpt`](https://huggingface.co/datasets/Bugjudger/HDR_Pretrain/blob/main/checkpoints/InstantHDR.ckpt). Download it to `checkpoints/InstantHDR.ckpt` in this project:
 
 ```bash
 mkdir -p checkpoints
